@@ -657,7 +657,8 @@ h1 {
 
 }
 #page2 .page2-img .info-left p,
-#page2 .page2-img .info-top p
+#page2 .page2-img .info-top p,
+#page2 .page2-img .info-bottom p
 {
     width:300px;
     font-size: 14px;
@@ -673,6 +674,15 @@ h1 {
     position: absolute;
     left:58%;
     top:108%
+
+}
+
+#page2 .page2-img .info-bottom {
+    height: 200px;
+    width:100px;
+    position: absolute;
+    left:61.5%;
+    top:156%
 
 }
 
@@ -693,6 +703,14 @@ h1 {
     margin-left: -20px;
 }
 
+#page2 .page2-img .black-line-bottom{
+    height: 150px;
+    /*width:100px;*/
+    /*position: absolute;*/
+    /*left:50%;*/
+    border-left: black 3px solid;
+    margin-left: -20px;
+}
 
 
 
