@@ -285,7 +285,7 @@ h1 {
 .nav-container  {
     /*margin:10px 20px;*/
     overflow: auto;
-    padding: 20px 26px;
+    padding: 18px 22px;
 }
 
 #navbar a{
@@ -406,18 +406,13 @@ h1 {
     /*Left Scroller*/
 #left-scroller{
    width:3px;
-    height:30vh;
+    height:31vh;
     color:#ffffff;
     position: fixed;
-    top:37vh;
-    left:10px;
+    top:35vh;
+    left:8px;
 }
 
-#left-scroller{
-
-
-
-}
 #left-scroller .scroller-box {
     color:#7E8189;
     font-size: 20px;
@@ -594,7 +589,7 @@ h1 {
     font-size: 17px;
     font-weight: 500;
     text-align: left;
-    margin-top:15px;
+    margin-top:12px;
     color:#181b21;
     height: 10px;
 }
@@ -648,8 +643,57 @@ h1 {
     background: url('../assets/img/model_3_safety_hero.png')
     no-repeat center/cover ;
     background-position: 50% 30%;
-    background-size: 90vw, 90vw;
+    background-size: 77vw, 77vw;
 }
+
+#page2 .page2-img .info-left {
+    height: 300px;
+    width:100px;
+    position: absolute;
+    left:42%;
+    top:120%
+    /*bottom:16%;*/
+/*padding: 20px;*/
+
+}
+#page2 .page2-img .info-left p,
+#page2 .page2-img .info-top p
+{
+    width:300px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #393D41;
+    letter-spacing: 1px;
+
+}
+
+#page2 .page2-img .info-top {
+    height: 200px;
+    width:100px;
+    position: absolute;
+    left:58%;
+    top:108%
+
+}
+
+#page2 .page2-img .black-line-left {
+    height: 250px;
+    /*width:100px;*/
+    /*position: absolute;*/
+    /*left:50%;*/
+    border-left: black 3px solid;
+    margin-left: -20px;
+}
+#page2 .page2-img .black-line-top {
+    height: 150px;
+    /*width:100px;*/
+    /*position: absolute;*/
+    /*left:50%;*/
+    border-left: black 3px solid;
+    margin-left: -20px;
+}
+
+
 
 
     /* Css Logo style copy from tesla site*/
