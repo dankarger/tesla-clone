@@ -231,7 +231,10 @@ a {
     text-decoration: none;
 }
 
-
+h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
 /* Utility */
 .clr {
     clear: both;
@@ -248,14 +251,17 @@ a {
 }
 
 .nav-container  {
-    margin:10px 20px;
+    /*margin:10px 20px;*/
     overflow: auto;
     padding: 20px 0px;
 }
 
 #navbar a{
     color:#ffffff;
-    font-weight: 300;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
 }
 #nav .logo {
     /*width:120px;*
@@ -282,6 +288,11 @@ a {
     padding: 20px;
     margin-left:10px;
     text-align: center;
+    /*color:#ffffff;*/
+    /*font-style: normal;*/
+    /*font-weight: 500;*/
+    /*font-size: 14px;*/
+    /*line-height: 21px;*/
 }
 #nav .right-bar {
     float:right;
@@ -302,8 +313,10 @@ a {
 #nav .mid-bar ul li a,
 #nav .right-bar ul li a{
     letter-spacing: 1px;
-    font-weight:300;
-    font-size: 14px;
+    line-height: 22px;
+    font-weight:600;
+    font-size: 15px;
+
    display: inline ;
     margin: 0px 10px;
     /*text-align: center;*/
@@ -318,10 +331,6 @@ a {
 
     /**/
 
-
-#nav a{
-    color:white;
-}
 
 #nav h1{
     float:left;
@@ -340,9 +349,10 @@ a {
 
 #nav ul li a {
     display: block;
-    padding: 10px 18px;
+    padding: 5px 5px;
     text-align: center;
     border-radius: 25px;
+
 }
 
 #nav ul li a:hover
@@ -383,4 +393,20 @@ a {
     position: fixed;
     bottom:0;
 
+}
+
+#page1 .page1-content{
+    position: relative;
+}
+#page1 .page1-content .page1-header {
+    position: absolute;
+    top:15vh;
+    left:43vw;
+    color:#ffffff;
+}
+#page1 .page1-content .page1-header h1{
+    color:#ffffff;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
 }
