@@ -239,6 +239,22 @@ h1 {
 .clr {
     clear: both;
 }
+/*buttons*/
+
+.btn {
+    color:#ffffff;
+    border:3px solid #ffffff;
+    border-radius: 30px;
+    display: inline-block;
+    padding:5px 35px;
+
+}
+.btn a {
+    color:#ffffff;
+    letter-spacing: 1px;
+
+}
+
 /* Navbar*/
 
 #nav {
@@ -391,19 +407,13 @@ h1 {
 
 }
 
-#page1 .page1-content .bottom-menu {
-    color:#ffffff;
-    width: 100%;
-    position: absolute;
-    bottom:100px;
-}
 
 #page1 .page1-content{
     position: relative;
 }
 #page1 .page1-content .page1-header {
     position: absolute;
-    top:24vh;
+    top:16vh;
     left:45vw;
     color:#ffffff;
 }
@@ -416,6 +426,16 @@ h1 {
 
 
 
+#page1 .page1-content .bottom-menu {
+    color:#ffffff;
+    /*width: 100%;*/
+    position: absolute;
+    /*bottom:100px;*/
+    /*left:50vw;*/
+    /*bottom:10vh;*/
+    top:87vh;
+    left:45vw;
+}
 
 
 
