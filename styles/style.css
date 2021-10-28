@@ -239,7 +239,6 @@ a {
 /* Navbar*/
 
 #nav {
-
     color:white;
     width: 100%;
     background: transparent;
@@ -249,19 +248,26 @@ a {
 }
 
 .nav-container  {
-    margin: auto;
+    margin:10px 20px;
     overflow: auto;
-    padding: 20px 24px;
+    padding: 20px 0px;
 }
 
 #navbar a{
     color:#ffffff;
+    font-weight: 300;
 }
 #nav .logo {
-    width:30%;
+    /*width:120px;*
+    /*height:30px;*/
     float:left;
-    margin: 20px;
+    margin-left: 20px;
 
+}
+#nav .logo a svg{
+    /*d: path("M 0 0.1 a 9.7 9.7 0 0 0 7 7 h 11 l 0.5 0.1 v 27.6 h 6.8 V 7.3 L 26 7 h 11 a 9.8 9.8 0 0 0 7 -7 H 0 Z m 238.6 0 h -6.8 v 34.8 H 263 a 9.7 9.7 0 0 0 6 -6.8 h -30.3 V 0 Z m -52.3 6.8 c 3.6 -1 6.6 -3.8 7.4 -6.9 l -38.1 0.1 v 20.6 h 31.1 v 7.2 h -24.4 a 13.6 13.6 0 0 0 -8.7 7 h 39.9 v -21 h -31.2 v -7 h 24 Z m 116.2 28 h 6.7 v -14 h 24.6 v 14 h 6.7 v -21 h -38 Z M 85.3 7 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 13.8 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 14.1 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z M 308.5 7 h 26 a 9.6 9.6 0 0 0 7 -7 h -40 a 9.6 9.6 0 0 0 7 7 Z");*/
+    width: 600px;
+    height: 600px;
 }
 
 
@@ -281,13 +287,17 @@ a {
     float:right;
 }
 
-#nav lu li {
-    float:left;
+/*#nav lu li {*/
+/*    float:left;*/
 
-}
+/*}*/
 
 #nav .mid-bar {
     /*display: inline;*/
+    float: none;
+    width: 100%;
+     margin-right:300px;
+    display: block;
 }
 #nav .mid-bar ul li a,
 #nav .right-bar ul li a{
@@ -300,7 +310,10 @@ a {
     color:#ffffff;
     text-decoration: none;
 }
+#nav .nav-container .logo a:hover {
+    background: none;
 
+}
 
 
     /**/
@@ -315,10 +328,6 @@ a {
     padding-top: 20px;
 }
 
-#nav .mid-bar ul {
-    list-style: none;
-    margin: auto;
-}
 
 #nav .right-bar ul {
     list-style: none;
