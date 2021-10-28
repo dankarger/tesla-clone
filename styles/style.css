@@ -242,7 +242,7 @@ h1 {
 /*buttons*/
 
 .btn {
-    color:#ffffff;
+    color:#000000;
     border:3px solid #ffffff;
     border-radius: 30px;
     display: inline-block;
@@ -252,7 +252,9 @@ h1 {
 .btn a {
     color:#ffffff;
     letter-spacing: 1px;
-
+    line-height: 14px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* Navbar*/
@@ -400,9 +402,10 @@ h1 {
 
 #page1 {
     width: 100vw;
-    height: 1000px;
+    height: 900px;
     background: url('../assets/img/M3-Hero-LHD-US-D.jpeg')
     no-repeat center/cover ;
+    background-position: 50% 30%;
     background-size: 100vw, 100vw;
 
 }
@@ -428,15 +431,22 @@ h1 {
 
 #page1 .page1-content .bottom-menu {
     color:#ffffff;
-    /*width: 100%;*/
+    width: 100vw;
     position: absolute;
-    /*bottom:100px;*/
-    /*left:50vw;*/
-    /*bottom:10vh;*/
-    top:87vh;
-    left:45vw;
+    display: block;
+    padding: 0px 20px;
+    top:85vh;
+    text-align: center;
 }
 
+
+#page1 .page1-content .page1-box {
+    border: 2px solid white;
+    display: inline-block;
+    padding:10px 30px;
+    margin: 0px 35px;
+    /*margin: 0px 35px;*/
+}
 
 
 
