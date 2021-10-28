@@ -356,18 +356,6 @@ h1 {
     text-decoration: none;
 }
 
-
-#nav .nav-container .logo a:hover {
-    background: none;
-    cursor: pointer;
-
-}
-
-
-
-    /**/
-
-
 #nav h1{
     float:left;
     padding-top: 20px;
@@ -398,6 +386,21 @@ h1 {
     color: #ffffff;
     border-radius: 25px;
     cursor: pointer;
+}
+
+/*Logo */
+
+#nav .nav-container .logo a:hover {
+    background: none;
+    cursor: pointer;
+
+}
+#page2 .logo-dark {
+    margin-left:55px;
+    position: absolute;
+    margin-top:10px;
+
+
 }
 
     /*Left Scroller*/
@@ -435,6 +438,17 @@ h1 {
 
 }
 
+/*#left-scroller span{*/
+/*    font-size: 10px;*/
+/*    color:transparent;*/
+    /*display: none;*/
+/*}*/
+/*#left-scroller span:hover{*/
+/*    !*transition: 0.5s;*!*/
+/*    !*display: block;*!*/
+/*    color:#ffffff;*/
+
+/*}*/
     /* Page 1 */
 
 #page1 {
@@ -560,13 +574,81 @@ h1 {
 }
 
 /*Page 2*/
+
+#page2 {
+    background:#F2F2F2;
+
+
+}
+
+#page2 .page2-left-content {
+    width: 24%;
+    height:100vh;
+    float:left;
+    background: #ffffff;
+    padding:40px 50px;
+    text-align: justify
+;
+}
+#page2 .page2-left-content h2 {
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    margin-top:15px;
+    color:#181b21;
+    height: 10px;
+}
+
+#page2 .page2-left-content h1 {
+    font-size: 28px;
+    line-height: 2;
+    font-weight: bold;
+    /*font-weight: 500;*/
+    text-align: left;
+    color:#181b21;
+    height: 60px;
+}
+
+#page2 .page2-left-content-inside {
+    background: #E2E4E4;
+    color: #000000;
+    width:110%;
+    height:35vh;
+    border-radius: 30px;
+    margin-top:20px;
+    padding:12px 40px;
+}
+
+#page2 .page2-left-content-inside h2{
+    color: #191C22;
+    font-weight: 600;
+    font-size: 22px;
+    /*letter-spacing: 1pt;*/
+
+}
+
+#page2 .page2-left-content-inside .h2-rating{
+    text-align: center;
+}
+#page2 .page2-left-content p {
+    font-size: 14px;
+    line-height: 21px;
+    /*font-weight: bold;*/
+    font-weight: 400;
+    text-align: left;
+    color:#393c41;
+
+
+
+}
+
 #page2 .page2-img{
-    width: 100vw;
+    /*width: 100vw;*/
     height: 900px;
     background: url('../assets/img/model_3_safety_hero.png')
     no-repeat center/cover ;
     background-position: 50% 30%;
-    background-size: 100vw, 100vw;
+    background-size: 90vw, 90vw;
 }
 
 
