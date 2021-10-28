@@ -409,11 +409,24 @@ h1 {
     top:37vh;
     left:10px;
 }
-#left-scroller .scroller-box{
+
+#left-scroller{
+
+
+
+}
+#left-scroller .scroller-box {
     color:#7E8189;
     font-size: 20px;
     /*margin-top:2px;*/
     font-weight: 100;
+}
+
+#left-scroller .scroller-box:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+
 }
 
 #left-scroller .current{
@@ -542,6 +555,11 @@ h1 {
     color:white;
 }
 
+#page1 .arrow:hover {
+    cursor: pointer;
+}
+
+/*Page 2*/
 #page2 .page2-img{
     width: 100vw;
     height: 900px;
