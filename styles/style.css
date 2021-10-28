@@ -229,20 +229,25 @@ html, body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-size: 40px;
     letter-spacing: 1px;
 }
+
 /* Utility */
+
 .clr {
     clear: both;
 }
+
 /*buttons*/
 
 .btn {
-    color:#000000;
+    /*color:#000000;*/
+    color:#ffffff;
     border:3px solid #ffffff;
     border-radius: 30px;
     display: inline-block;
@@ -250,11 +255,20 @@ h1 {
 
 }
 .btn a {
-    color:#ffffff;
+
     letter-spacing: 1px;
     line-height: 14px;
     font-size: 16px;
     font-weight: 500;
+}
+
+.btn:hover{
+    transition: 1s;
+    background:#ffffff;
+    color: #000000;
+    /*border-radius: 25px;*/
+    cursor: pointer;
+
 }
 
 /* Navbar*/
@@ -294,14 +308,11 @@ h1 {
 /*    width: 600px;*/
 /*    height: 600px;*/
 /*}*/
-
-
 #nav .mid-bar ul,
 #nav .right-bar ul {
     list-style: none;
 
 }
-
 /*#navbar ul li a {*/
     /*display: block;*/
     /*padding: 20px;*/
@@ -331,6 +342,7 @@ h1 {
     display: block;
     text-align: center;
 }
+
 #nav .mid-bar ul li a,
 #nav .right-bar ul li a{
     letter-spacing: 1px;
@@ -338,11 +350,13 @@ h1 {
     font-weight:600;
     font-size: 15px;
     padding:5px 15px;
-   display: inline ;
+    display: inline ;
     /*margin: 0px 10px;*/
     color:#ffffff;
     text-decoration: none;
 }
+
+
 #nav .nav-container .logo a:hover {
     background: none;
     cursor: pointer;
@@ -427,51 +441,83 @@ h1 {
     font-weight: 300;
 }
 
-
-
 #page1 .page1-content .bottom-menu {
     color:#ffffff;
-    width: 100vw;
+    /*width: 100vw;*/
+
+    width: 100%;
     position: absolute;
     display: block;
     /*padding: 0px 20px;*/
-    top:80vh;
+    top:83vh;
     text-align: center;
     margin-top:20px;
+
+    /*margin: auto;*/
 }
 
 
 #page1 .page1-content  .bottom-menu   .page1-box {
-    line-height: 28px;
-    border: 2px solid white;
+    line-height: 20px;
+    /*line-height: 28px;*/
     display: inline-block;
     width:170px;
     /*height:200px;*/
-    border: red solid 2px;
+    /*border: red solid 2px;*/
     /*padding:0px 30px;*/
     /*margin: 0px 30px;*/
-    margin: 10px 0px;
-    /*margin: auto;*/
+    /*margin: 10px 0px;*/
+    margin: auto;
     /*padding: 10px 20px;*/
     text-align: center;
 }
+/*.box1-container{*/
+/*    border: red solid 2px;*/
+/*    display: inline-block;*/
+/*    width: 100%;*/
+/*    margin: auto;*/
+/*    text-align: center;*/
+/*}*/
+/*.page1-box1-container {*/
 
+/*    border: yellow solid 4px;*/
+
+/*}*/
 #page1 .page1-content  .bottom-menu  .box1-upper {
     color: #ffffff;
-    font-size: 22px;
-    font-weight: 500;
-    width: 100%;
+    /*font-size: 20px;*/
+    /*font-weight: 500;*/
+    width: 200px;
 }
 
 #page1 .page1-content  .bottom-menu  .box1-upper .speedmeter{
-    width: 50%;
+    /*display: inline;*/
+    font-size: 2.5em;
+    /*width: 40%;*/
+    margin-bottom: 10px;
+    /*line-height: 10px;*/
     float:left;
-}
 
+}
+#page1 .page1-content  .bottom-menu  .box1-upper h2{
+    width: 70%;
+    font-size: 36px;
+    /*float:right;*/
+}
+#page1 .page1-content  .bottom-menu  .page1-box h2{
+    /*width: 70%;*/
+    /*line-height: 20px;*/
+    font-size: 36px;
+}
 #page1 .page1-content  .bottom-menu  .box1-bottom {
-    width: 100%;
+    /*display: block;*/
+    /*width: 100%;*/
+    /*margin-right: 70px;*/
+    /*margin: auto;*/
     font-weight: 400;
     font-size: 14px;
+    /*text-align: center;*/
+    margin-top: 15px;
 }
 
 #page1 .bottom-arrow-div{
@@ -485,8 +531,6 @@ h1 {
 #page1 .arrow{
     color:white;
 }
-
-
 
 #page2 {
     height: 500px;
