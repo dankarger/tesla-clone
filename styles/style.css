@@ -434,28 +434,71 @@ h1 {
     width: 100vw;
     position: absolute;
     display: block;
-    padding: 0px 20px;
-    top:85vh;
+    /*padding: 0px 20px;*/
+    top:80vh;
+    text-align: center;
+    margin-top:20px;
+}
+
+
+#page1 .page1-content  .bottom-menu   .page1-box {
+    line-height: 28px;
+    border: 2px solid white;
+    display: inline-block;
+    width:170px;
+    /*height:200px;*/
+    border: red solid 2px;
+    /*padding:0px 30px;*/
+    /*margin: 0px 30px;*/
+    margin: 10px 0px;
+    /*margin: auto;*/
+    /*padding: 10px 20px;*/
     text-align: center;
 }
 
+#page1 .page1-content  .bottom-menu  .box1-upper {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    width: 100%;
+}
 
-#page1 .page1-content .page1-box {
-    border: 2px solid white;
-    display: inline-block;
-    padding:10px 30px;
-    margin: 0px 35px;
-    /*margin: 0px 35px;*/
+#page1 .page1-content  .bottom-menu  .box1-upper .speedmeter{
+    width: 50%;
+    float:left;
+}
+
+#page1 .page1-content  .bottom-menu  .box1-bottom {
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#page1 .bottom-arrow-div{
+    border: red 1px solid;
+    display: block;
+    position: fixed;
+    bottom: 5px;
+    margin-left: 50%;
+    text-align: center;
+}
+#page1 .arrow{
+    color:white;
+}
+
+
+
+#page2 {
+    height: 500px;
+    background: white;
+
+
 }
 
 
 
 
-
-
-
-
-/* Logo style copy from tesla site*/
+    /* Logo style copy from tesla site*/
 
 .tds-icon {
     -webkit-text-size-adjust: 100%;
