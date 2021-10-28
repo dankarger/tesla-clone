@@ -1,0 +1,45 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* General */
+html, body {
+    font-family: "Gotham Medium", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+/* Utility */
+.clr {
+    clear: both;
+}
+/* Navbar*/
+
+#nav {
+    overflow: auto;
+    color:white;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+}
+
+#nav .logo {
+    width:50%;
+    float:left;
+    margin: 20px;
+}
+
+
+/* Page 1 */
+
+#page1 {
+    width: 100vw;
+    height: 1000px;
+    background: url('../assets/img/M3-Hero-LHD-US-D.jpeg')
+    no-repeat center/cover ;
+    background-size: 100vw, 100vw;
+
+}
