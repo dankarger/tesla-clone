@@ -406,9 +406,19 @@ h1 {
     height:30vh;
     color:#ffffff;
     position: fixed;
-    top:50vh;
+    top:37vh;
     left:10px;
+}
+#left-scroller .scroller-box{
+    color:#7E8189;
+    font-size: 20px;
+    /*margin-top:2px;*/
+    font-weight: 100;
+}
 
+#left-scroller .current{
+    color: #ffffff;
+    font-size: 28px;
 
 }
 
@@ -521,7 +531,7 @@ h1 {
 }
 
 #page1 .bottom-arrow-div{
-    border: red 1px solid;
+
     display: block;
     position: fixed;
     bottom: 5px;
@@ -532,17 +542,17 @@ h1 {
     color:white;
 }
 
-#page2 {
-    height: 500px;
-    background: white;
-
-
+#page2 .page2-img{
+    width: 100vw;
+    height: 900px;
+    background: url('../assets/img/model_3_safety_hero.png')
+    no-repeat center/cover ;
+    background-position: 50% 30%;
+    background-size: 100vw, 100vw;
 }
 
 
-
-
-    /* Logo style copy from tesla site*/
+    /* Css Logo style copy from tesla site*/
 
 .tds-icon {
     -webkit-text-size-adjust: 100%;
