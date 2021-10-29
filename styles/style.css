@@ -605,9 +605,9 @@ h1 {
 #page1 .bottom-arrow-div{
 
     display: block;
-    position: fixed;
-    bottom: 5px;
-    margin-left: 50%;
+    position: sticky;
+    bottom: 2px;
+    /*margin-left: 50%;*/
     text-align: center;
 }
 #page1 .arrow{
@@ -885,14 +885,10 @@ h1 {
 }
 
 #page3 .page3-bottom-menu {
-
     width: 100%;
     height:200px;
     border:2px red solid;
-
     text-align: center;
-
-
 }
 
 #page3 .page3-bottom-menu p,
@@ -928,7 +924,12 @@ h1 {
     width:400px;
     float:left;
 }
-
+#page3 .page3-buttons-div,#page3 .page3-bottom-menu-text-p {
+    display: inline-block;
+    width:300px;
+    border:5px green solid;
+    text-align: center;
+}
     /* Css Logo style copy from tesla site*/
 .tds-icon {
     -webkit-text-size-adjust: 100%;
