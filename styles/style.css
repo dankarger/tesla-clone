@@ -604,7 +604,8 @@ h1 {
 
 #page2 {
     background:#F2F2F2;
-
+    height:900px;
+    width:100%;
 
 }
 
@@ -801,19 +802,51 @@ h1 {
 }
 
 /* Page 3 */
-
-#page3 .page3-img {
+#page3 {
+    background: white;
     width: 100vw;
     height: 900px;
-    background: url('../assets/img/lhd-performance-hero-desktop.jpeg.jpeg')
-    no-repeat center/cover ;
-    background-position: 50% 30%;
+}
+#page3 .page3-img {
+    width: 100vw;
+    height: 640px;
+    background: url('../assets/img/lhd-performance-hero-desktop.jpeg')
+    no-repeat   ;
+    background-position:  50% 50%;
     background-size: 100vw, 100vw;
+}
+
+#page3 .page3-middle-bar {
+    color:#ffffff;
+    display:block;
+    text-align: center;
+    border:red solid 3px;
+    padding-top:18%;
+
 
 
 }
 
+#page3 .page3-middle-box1, #page3 .page3-middle-box2,#page3 .page3-middle-box3 {
 
+
+
+}
+#page3 .page3-middle-box1 {
+
+
+}
+
+#page3 .speedmeter,#page3 .page3-middle-bar h1,
+#page3 .page3-middle-bar p,
+
+.page3-middle-box-header
+{
+    display: inline-block;
+}
+#page3 .page3-middle-bar .page3-middle-bottom {
+    display: block;
+}
 /* Css Logo style copy from tesla site*/
 
 .tds-icon {
