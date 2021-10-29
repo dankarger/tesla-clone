@@ -707,6 +707,12 @@ h1 {
     position: relative;
 
 }
+#page2 .dot {
+    color:black;
+    font-size:30px;
+
+    margin-left: -20px;
+}
 #page2 .page2-img .info-left {
     height: 370px;
     width:100px;
