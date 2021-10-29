@@ -254,7 +254,17 @@ h1 {
     padding:5px 35px;
 
 }
-.btn a {
+
+.btn:hover{
+    transition: 1s;
+    background:#ffffff;
+    color: #000000;
+    /*border-radius: 25px;*/
+    cursor: pointer;
+
+}
+
+.btn a  {
 
     letter-spacing: 1px;
     line-height: 14px;
@@ -270,7 +280,29 @@ h1 {
     cursor: pointer;
 
 }
+.btn-light {
+    color:#000000;
+    border:3px solid #000000;
+    border-radius: 30px;
+    display: inline-block;
+    padding:10px 30px;
 
+}
+.btn-light a  {
+
+    letter-spacing: 1px;
+    line-height: 14px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn-light:hover{
+    transition: 1s;
+    background:#000000;
+    color:#ffffff ;
+    /*border-radius: 25px;*/
+    cursor: pointer;
+
+}
 /* Navbar*/
 
 #nav {
@@ -684,7 +716,7 @@ h1 {
     width:100px;
     position: absolute;
     left:calc(61.5% + 108px);
-    top:156%
+    top:160%
 
 }
 
@@ -740,6 +772,48 @@ h1 {
    display: inline-block;
 
 }
+#page2 .page2-buttons-div {
+    overflow: auto;
+    text-align: center;
+    display:  block;
+    margin-top: 220px;
+}
+#page2 .plus-icon {
+    line-height: 20px;
+    font-size: 40px;
+    width: 50%;
+    float:left;
+    display: inline ;
+    overflow: auto;
+
+}
+#page2 .plus-icon:hover {
+    transition: 1s;
+     color:grey;
+
+}
+#page2 .plus-icon span p {
+    line-height: 45px;
+    margin-right: 10px;
+    width: 50%;
+    float:right;
+    font-size: 12px;
+}
+
+/* Page 3 */
+
+#page3 .page3-img {
+    width: 100vw;
+    height: 900px;
+    background: url('../assets/img/lhd-performance-hero-desktop.jpeg.jpeg')
+    no-repeat center/cover ;
+    background-position: 50% 30%;
+    background-size: 100vw, 100vw;
+
+
+}
+
+
 /* Css Logo style copy from tesla site*/
 
 .tds-icon {
