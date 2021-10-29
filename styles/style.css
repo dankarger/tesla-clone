@@ -820,20 +820,24 @@ h1 {
     color:#ffffff;
     display:block;
     text-align: center;
-    border:red solid 3px;
-    padding-top:18%;
+
+    padding-top:26%;
 
 }
 
 #page3 .page3-middle-box1, #page3 .page3-middle-box2,#page3 .page3-middle-box3 {
     display: inline-block;
     width:300px;
-    border: yellow 1px solid;
+    /*border: yellow 1px solid;*/
+    text-align: center;
+    margin:0px 12px
 
 }
-#page3 .page3-middle-box1 {
-    display: block;
-    float:left;
+#page3 .page3-middle-box-header .speedmeter i{
+    font-size: 33px;
+    margin-right:3px;
+
+
 }
 
 #page3 .speedmeter,#page3 .page3-middle-bar h1,
@@ -849,8 +853,12 @@ h1 {
 }
 
 #page3 .page3-middle-bar p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#page3 .page3-buttons {
+    display: inline-block;
 
 }
 /* Css Logo style copy from tesla site*/
