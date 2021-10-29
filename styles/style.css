@@ -577,7 +577,7 @@ h1 {
 }
 
 #page2 .page2-left-content {
-    width: 28%;
+    width: 420px;
     height:100vh;
     float:left;
     background: #ffffff;
@@ -654,7 +654,7 @@ h1 {
     left:calc(42% + 108px);
     top:118% ;
     /*bottom:16%;*/
-/*padding: 20px;*/
+    /*padding: 20px;*/
 
 }
 #page2 .page2-img .info-left p,
@@ -715,7 +715,8 @@ h1 {
 
 
 
-    /* Css Logo style copy from tesla site*/
+
+/* Css Logo style copy from tesla site*/
 
 .tds-icon {
     -webkit-text-size-adjust: 100%;
