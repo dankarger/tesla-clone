@@ -702,7 +702,10 @@ h1 {
     background-size: 84vw, 84vw;
     margin-left: 200px;
 }
+#page2 .infos-div {
+    position: relative;
 
+}
 #page2 .page2-img .info-left {
     height: 370px;
     width:100px;
@@ -712,7 +715,7 @@ h1 {
     margin-left: 39%;
 
     /*bottom:16%;*/
-    padding-top: 210px;
+    padding-top: 150px;
 
 }
 #page2 .page2-img .info-left p,
@@ -731,21 +734,26 @@ h1 {
 #page2 .page2-img .info-top {
     height: 200px;
     width:100px;
-    margin-left: 1080px;
-    border: red 1px solid;
+    /*margin-left: 680px;*/
+    display: inline-block;
+    padding-bottom: 100px;
+    top:10%;
+    right:34%;
+    /*border: red 1px solid;*/
+    position: absolute;
 }
 
 #page2 .page2-img .info-bottom {
     height: 200px;
     width:100px;
-    position: inherit;
-    left:calc(61.5% + 108px);
-    top:160%
-
+    position: absolute;
+    left:61.5%;
+    top:140%;
+    /*display: inline-block;*/
 }
 
 #page2 .page2-img .black-line-left {
-    height: 250px;
+    height: 270px;
     /*width:100px;*/
     /*position: absolute;*/
     /*left:50%;*/
