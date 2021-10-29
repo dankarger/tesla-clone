@@ -611,14 +611,15 @@ h1 {
     height:300px;
     border-radius: 30px;
     margin-top:20px;
-    padding:12px 40px;
+    padding:5px 22px;
 }
 
 #page2 .page2-left-content-inside h2{
     color: #191C22;
-    font-weight: 600;
-    font-size: 22px;
-    /*letter-spacing: 1pt;*/
+    font-weight: 800;
+    font-size: 20px;
+     margin-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -713,9 +714,32 @@ h1 {
     margin-left: -20px;
 }
 
+#page2 .rating-div {
+    width:100%;
+    margin-top:15px;
+    text-align: left;
+    font-size: 14px;
+}
+#page2 .rating-div .stars {
+    font-size: 17px;
+    display: block;
+    width:50%;
+    float: right;
+    text-align: center;
+    letter-spacing: 6px;
+}
+#page2 .rating-div p {
+    font-size: 10px;
+    display: inline-block;
+    width:50%;
+    float: left;
+}
 
+#page2 .text-rating {
+    font-size: 12px;
+   display: inline-block;
 
-
+}
 /* Css Logo style copy from tesla site*/
 
 .tds-icon {
