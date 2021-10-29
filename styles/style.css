@@ -351,7 +351,8 @@ h1 {
     float:left;
     margin-left: 10px;
     padding-left: 20px;
-
+    z-index: 0;
+    position: absolute;
 }
 /*#nav .logo a svg{*/
 /*    !*d: path("M 0 0.1 a 9.7 9.7 0 0 0 7 7 h 11 l 0.5 0.1 v 27.6 h 6.8 V 7.3 L 26 7 h 11 a 9.8 9.8 0 0 0 7 -7 H 0 Z m 238.6 0 h -6.8 v 34.8 H 263 a 9.7 9.7 0 0 0 6 -6.8 h -30.3 V 0 Z m -52.3 6.8 c 3.6 -1 6.6 -3.8 7.4 -6.9 l -38.1 0.1 v 20.6 h 31.1 v 7.2 h -24.4 a 13.6 13.6 0 0 0 -8.7 7 h 39.9 v -21 h -31.2 v -7 h 24 Z m 116.2 28 h 6.7 v -14 h 24.6 v 14 h 6.7 v -21 h -38 Z M 85.3 7 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 13.8 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 14.1 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z M 308.5 7 h 26 a 9.6 9.6 0 0 0 7 -7 h -40 a 9.6 9.6 0 0 0 7 7 Z");*!*/
@@ -624,7 +625,8 @@ h1 {
     background:#F2F2F2;
     height:900px;
     width:100%;
-
+    z-index: 4;
+    position: relative;
 }
 
 #page2 .page2-left-content {
@@ -633,7 +635,9 @@ h1 {
     float:left;
     background: #ffffff;
     padding:50px 50px;
-    text-align: justify
+    text-align: justify;
+
+
 ;
 }
 #page2 .page2-left-content h2 {
@@ -700,19 +704,22 @@ h1 {
 }
 
 #page2 .page2-img .info-left {
-    height: 300px;
+    height: 370px;
     width:100px;
-    position: absolute;
-    left:calc(42% + 108px);
-    top:118% ;
+    position: inherit;
+    /*left:calc(1108px);*/
+    /*top:300% ;*/
+    margin-left: 39%;
+
     /*bottom:16%;*/
-    /*padding: 20px;*/
+    padding-top: 210px;
 
 }
 #page2 .page2-img .info-left p,
 #page2 .page2-img .info-top p,
 #page2 .page2-img .info-bottom p
 {
+
     width:300px;
     font-size: 14px;
     font-weight: 700;
@@ -724,16 +731,14 @@ h1 {
 #page2 .page2-img .info-top {
     height: 200px;
     width:100px;
-    position: absolute;
-    left:calc(58% + 108px);
-    top:108%
-
+    margin-left: 1080px;
+    border: red 1px solid;
 }
 
 #page2 .page2-img .info-bottom {
     height: 200px;
     width:100px;
-    position: absolute;
+    position: inherit;
     left:calc(61.5% + 108px);
     top:160%
 
@@ -827,6 +832,8 @@ h1 {
     background: white;
     width: 100vw;
     height: 900px;
+    z-index: 6;
+    position: relative;
 }
 #page3 .page3-img {
     width: 100vw;
@@ -841,7 +848,7 @@ h1 {
     color:#ffffff;
     display:block;
     text-align: center;
-    padding-top:500px;
+    padding-top:490px;
 
 }
 
@@ -870,11 +877,13 @@ h1 {
 #page3 .page3-middle-bar h1 {
     font-size: 28px;
     font-weight: 600;
+    letter-spacing: -1px;
 }
 
 #page3 .page3-middle-bar p {
     font-size: 13px;
     font-weight: 100;
+
 }
 
 #page3 .page3-buttons {
@@ -889,6 +898,7 @@ h1 {
     height:200px;
     border:2px red solid;
     text-align: center;
+
 }
 
 #page3 .page3-bottom-menu p,
