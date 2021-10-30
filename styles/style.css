@@ -347,10 +347,25 @@ h1 {
     text-align: right;
     margin:0px 25px;
     padding:10px 16px
-    /*display: inline-block;*/
+}
 
+.chat-icon {
+    font-size:25px;
+    font-weight: 100;
+    background: #ffffff;
+    border: 0.1px solid rgba(110, 108, 108, 0.34);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 8px 12px;
+    position: fixed;
+    bottom: 74px;
+    right:  37px;
+    box-shadow: 1px 1px 1px rgba(110, 108, 108, 0.34);
+    z-index: 20;
+}
 
-
+.chat-icon:hover {
+    cursor: pointer;
 }
 /* Navbar*/
 
