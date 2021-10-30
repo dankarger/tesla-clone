@@ -329,12 +329,12 @@ h1 {
 
 #nav .mid-bar ul li a,
 #nav .right-bar ul li a{
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     line-height: 22px;
     font-weight:400;
     font-size: 14px;
-    padding:5px 12px;
-    padding-left: 15px;
+    padding:5px 14px;
+    padding-right: 16px;
     display: inline ;
     color:#ffffff;
     text-decoration: none;
@@ -464,7 +464,7 @@ h1 {
     height: 900px;
     background: url('../assets/img/M3-Hero-LHD-US-D.jpeg')
     no-repeat center/cover ;
-    background-position: 50% 30%;
+    background-position: 50% 37%;
     background-size: 100vw, 100vw;
 
 }
@@ -671,9 +671,10 @@ h1 {
     height: 900px;
     background: url('../assets/img/model_3_safety_hero.png')
     no-repeat center/cover ;
-    background-position: 50% 30%;
-    background-size: 84vw, 84vw;
-    margin-left: 200px;
+    /*background-position: 50% 30%;*/
+    background-size: 78vw, 78vw;
+    margin-left: 67px;
+    margin-top:32px;
 }
 #page2 .infos-div {
     position: relative;
@@ -709,8 +710,8 @@ h1 {
     height: 370px;
     width:100px;
     position: inherit;
-    margin-left: 39%;
-    padding-top: 125px;
+    margin-left: 41%;
+    padding-top: 105px;
 }
 #page2 .page2-img .info-left p,
 #page2 .page2-img .info-top p,
@@ -728,7 +729,7 @@ h1 {
     width:100px;
     display: inline-block;
     top:-7%;
-    right:34%;
+    right:35.8%;
     position: absolute;
 }
 
@@ -737,8 +738,8 @@ h1 {
     display: inline-block;
     width:100px;
     position: absolute;
-    left:63.5%;
-    top:120%;
+    left:62%;
+    top:124%;
 }
 
 #page2 .page2-img .black-line-left {
