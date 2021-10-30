@@ -245,6 +245,9 @@ h1 {
     clear: both;
 }
 
+.mar-y-5 {
+    margin: 0px 5px;
+}
 /*buttons*/
 
 .btn {
@@ -348,6 +351,14 @@ h1 {
     margin:0px 25px;
     padding:10px 16px
 }
+.arrow-dark-page3 {
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: right;
+    margin:0px 25px;
+    padding:10px 16px;
+    margin-bottom:20px;
+}
 
 .chat-icon {
     font-size:25px;
@@ -393,15 +404,7 @@ h1 {
     font-size: 14px;
     line-height: 21px;
 }
-#nav .logo {
-    /*width:120px;*/
-    /*height:30px;*/
-    float:left;
-    margin-left: 10px;
-    padding-left: 20px;
-    z-index: 0;
-    position: absolute;
-}
+
 /*#nav .logo a svg{*/
 /*    !*d: path("M 0 0.1 a 9.7 9.7 0 0 0 7 7 h 11 l 0.5 0.1 v 27.6 h 6.8 V 7.3 L 26 7 h 11 a 9.8 9.8 0 0 0 7 -7 H 0 Z m 238.6 0 h -6.8 v 34.8 H 263 a 9.7 9.7 0 0 0 6 -6.8 h -30.3 V 0 Z m -52.3 6.8 c 3.6 -1 6.6 -3.8 7.4 -6.9 l -38.1 0.1 v 20.6 h 31.1 v 7.2 h -24.4 a 13.6 13.6 0 0 0 -8.7 7 h 39.9 v -21 h -31.2 v -7 h 24 Z m 116.2 28 h 6.7 v -14 h 24.6 v 14 h 6.7 v -21 h -38 Z M 85.3 7 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 13.8 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 14.1 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z M 308.5 7 h 26 a 9.6 9.6 0 0 0 7 -7 h -40 a 9.6 9.6 0 0 0 7 7 Z");*!*/
 /*    width: 600px;*/
@@ -488,18 +491,30 @@ h1 {
 }
 
 /*Logo */
-
+#nav .logo {
+    /*width:120px;*/
+    /*height:30px;*/
+    float:left;
+    margin-left: 10px;
+    padding-left: 20px;
+    z-index: 0;
+    position: absolute;
+}
 #nav .nav-container .logo a:hover {
     background: none;
     cursor: pointer;
 
 }
 #page2 .logo-dark {
-    margin-left:55px;
+    display: inline;
+    position: sticky;
+    top:0%;
+}
+#page3 .logo-dark {
+    display: inline;
     position: absolute;
-    margin-top:10px;
-
-
+    margin: 18px 48px;
+    top:0;
 }
 
     /*Left Scroller*/
@@ -741,7 +756,7 @@ h1 {
     height:900px;
     float:left;
     background: #ffffff;
-    padding:50px 50px;
+    padding:20px 50px;
     text-align: justify;
 
 
@@ -835,7 +850,7 @@ h1 {
     font-size:20px;
     margin-left: -8px;
     /*margin-bottom: 190%;*/
-    margin-top:-10px
+    padding-bottom: 100px;
     /*position: static;*/
 }
 #page2 .page2-img .info-left {
