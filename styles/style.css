@@ -198,6 +198,7 @@ h1 {
 }
 
 .arrow-dark {
+
     font-size: 22px;
     font-weight: lighter;
     text-align: right;
@@ -205,14 +206,23 @@ h1 {
     padding:10px 16px
 }
 .arrow-dark-page3 {
+    float: right;
+    display:inline-block;
     font-size: 22px;
-    font-weight: lighter;
-    text-align: right;
-    margin:0px 25px;
-    padding:10px 16px;
-    margin-bottom:20px;
-}
+    font-weight: 100;
+    position: sticky;
+    margin:22px 35px;
+    top: 25px;
+    right: 15px;
+    /*left:2000px*/
+    /*padding-right: 100px;*/
 
+    /*text-align: right;*/
+    /*    margin:0px 25px;*/
+    /*    padding:10px 16px;*/
+    /*    margin-bottom:20px;*/
+    /*}*/
+}
 .chat-icon {
     font-size:25px;
     font-weight: 100;
@@ -284,7 +294,8 @@ h1 {
 .nav-container  {
     /*margin:10px 20px;*/
     overflow: auto;
-    padding: 18px 22px;
+    padding: 16px 22px;
+    padding-right:32px;
 
 }
 
@@ -313,18 +324,21 @@ h1 {
      padding-left:33%;
     display: block;
     text-align: center;
+
 }
 
 #nav .mid-bar ul li a,
 #nav .right-bar ul li a{
     letter-spacing: 1px;
     line-height: 22px;
-    font-weight:300;
+    font-weight:400;
     font-size: 14px;
-    padding:5px 15px;
+    padding:5px 12px;
+    padding-left: 15px;
     display: inline ;
     color:#ffffff;
     text-decoration: none;
+
 }
 
 #nav h1{
@@ -381,10 +395,11 @@ h1 {
     top:0%;
 }
 #page3 .logo-dark {
+    display: inline-block;
     display: inline;
-    position: absolute;
+    position: sticky;
     margin: 18px 48px;
-    top:0;
+    top:20px;
 }
 
     /*Left Scroller*/
@@ -664,31 +679,6 @@ h1 {
     position: relative;
 
 }
-#page2 .dot1 {
-    display: inline-block;
-    color:white;
-    font-size:20px;
-    margin-left: -8px;
-    margin-top: 214%;
-    /*position: static;*/
-}
-#page2 .dot2 {
-    display: inline-block;
-    color:white;
-    font-size:20px;
-    margin-left: -8px;
-    margin-top: 126%;
-    /*position: static;*/
-}
-#page2 .dot3 {
-    display: inline-block;
-    color:white;
-    font-size:20px;
-    margin-left: -8px;
-    /*margin-bottom: 190%;*/
-    padding-bottom: 100px;
-    /*position: static;*/
-}
 
 .circle {
     display: inline-block;
@@ -854,7 +844,7 @@ h1 {
     color:#ffffff;
     display:block;
     text-align: center;
-    margin-top: 434px;
+    margin-top: 474px;
 }
 
 #page3 .page3-middle-box1, #page3 .page3-middle-box2,#page3 .page3-middle-box3 {
