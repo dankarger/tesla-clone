@@ -280,7 +280,37 @@ h1 {
     left:15px;
     bottom:  5px;
 }
+g{
+    /*position:relative;*/
+    /*display: block;*/
+    /*width: 40px;*/
+    /*height: 30px;*/
+    border: red solid 1px;
+    /*transform:translate(x,y) rotate(zz)*/
+}
+.svg1 {
 
+    /*position: absolute;*/
+
+    /*width:30px;*/
+    /*height:10px*/
+    /*z-index: 19;*/
+
+}
+.svg2 {
+    /*height:10px*/
+    /*width:30px;*/
+    fill: grey;
+    /*position: absolute;*/
+    /*z-index: 20;*/
+    /*margin-bottom: 10px;*/
+}
+.svg3{
+    /*!*position: absolute;*!*/
+    /*z-index: 21;*/
+    /*width:15px;*/
+    /*height:10px*/
+}
 
 /* Navbar*/
 
@@ -1386,3 +1416,4 @@ h1 {
     text-indent: -9999px;
     inline-size: calc(var(--tds-icon--size)*4);
 }
+
