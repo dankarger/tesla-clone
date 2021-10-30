@@ -537,13 +537,6 @@ h1 {
     font-weight: 100;
 }
 
-#left-scroller .scroller-box:hover {
-    cursor: pointer;
-    color: white;
-    font-weight: 600;
-    visibility: visible!important;
-
-}
 
 #left-scroller .current{
     color: #ffffff;
@@ -551,22 +544,33 @@ h1 {
 
 }
 
+
+.n {
+    float: right;
+}
 #left-scroller .scroller-name {
     font-size: 10px;
-    visibility: hidden;
-    float: right;
+    color: transparent;
     text-align: left;
-    display: inline-block;
-    /*position: relative;*/
-    /*colo  r: initial;*/
-    /*color: transparent;*
-    /*float: left;*/
+    display: inline;
+}
+
+#left-scroller .scroller-box:hover{
+    cursor: pointer;
+    color: white!important;
+    font-weight: 600;
+    visibility: visible !important;
 
 }
-.scroller-box:hover  +  .scroller-name  {
-    visibility: visible!important;
-    /*background: red;*/
+#left-scroller .scroller-box:hover> .scroller-name{
+    cursor: pointer;
+    color: white!important;
+    font-weight: 600;
+    visibility: visible !important;
+
 }
+
+
 
     /* Page 1 */
 
