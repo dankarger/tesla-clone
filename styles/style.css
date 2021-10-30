@@ -519,8 +519,9 @@ h1 {
 }
 
     /*Left Scroller*/
+
 #left-scroller{
-   width:3px;
+   /*width:3px;*/
     height:31vh;
     color:#ffffff;
     position: fixed;
@@ -540,6 +541,7 @@ h1 {
     cursor: pointer;
     color: white;
     font-weight: 600;
+    visibility: visible!important;
 
 }
 
@@ -549,6 +551,22 @@ h1 {
 
 }
 
+#left-scroller .scroller-name {
+    font-size: 10px;
+    visibility: hidden;
+    float: right;
+    text-align: left;
+    display: inline-block;
+    /*position: relative;*/
+    /*colo  r: initial;*/
+    /*color: transparent;*
+    /*float: left;*/
+
+}
+.scroller-box:hover  +  .scroller-name  {
+    visibility: visible!important;
+    /*background: red;*/
+}
 
     /* Page 1 */
 
