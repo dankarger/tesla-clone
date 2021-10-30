@@ -339,6 +339,19 @@ h1 {
     border-color: #000000;
 
 }
+
+
+.arrow-dark {
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: right;
+    margin:0px 25px;
+    padding:10px 16px
+    /*display: inline-block;*/
+
+
+
+}
 /* Navbar*/
 
 #nav {
