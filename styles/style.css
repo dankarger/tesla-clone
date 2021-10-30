@@ -813,80 +813,81 @@ h1 {
     position: relative;
 
 }
-#page2 .dot {
-    color:black;
-    font-size:30px;
-
-    margin-left: -20px;
+#page2 .dot1 {
+    display: inline-block;
+    color:white;
+    font-size:20px;
+    margin-left: -8px;
+    margin-top: 214%;
+    /*position: static;*/
+}
+#page2 .dot2 {
+    display: inline-block;
+    color:white;
+    font-size:20px;
+    margin-left: -8px;
+    margin-top: 126%;
+    /*position: static;*/
+}
+#page2 .dot3 {
+    display: inline-block;
+    color:white;
+    font-size:20px;
+    margin-left: -8px;
+    /*margin-bottom: 190%;*/
+    margin-top:-10px
+    /*position: static;*/
 }
 #page2 .page2-img .info-left {
     height: 370px;
     width:100px;
     position: inherit;
-    /*left:calc(1108px);*/
-    /*top:300% ;*/
     margin-left: 39%;
-
-    /*bottom:16%;*/
-    padding-top: 150px;
-
+    padding-top: 125px;
 }
 #page2 .page2-img .info-left p,
 #page2 .page2-img .info-top p,
 #page2 .page2-img .info-bottom p
 {
-
     width:300px;
     font-size: 14px;
     font-weight: 700;
     color: #393D41;
     letter-spacing: 1px;
-
 }
 
 #page2 .page2-img .info-top {
     height: 200px;
     width:100px;
-    /*margin-left: 680px;*/
     display: inline-block;
-    padding-bottom: 100px;
-    top:10%;
+    /*padding-bottom: 100px;*/
+    top:-1%;
     right:34%;
-    /*border: red 1px solid;*/
     position: absolute;
 }
 
 #page2 .page2-img .info-bottom {
-    height: 200px;
+    height: 130px;
+    display: inline-block;
     width:100px;
     position: absolute;
-    left:61.5%;
-    top:140%;
-    /*display: inline-block;*/
+    left:63.5%;
+    top:120%;
 }
 
 #page2 .page2-img .black-line-left {
     height: 270px;
-    /*width:100px;*/
-    /*position: absolute;*/
-    /*left:50%;*/
     border-left: black 3px solid;
     margin-left: -20px;
 }
 #page2 .page2-img .black-line-top {
-    height: 150px;
-    /*width:100px;*/
-    /*position: absolute;*/
-    /*left:50%;*/
+    height: 170px;
     border-left: black 3px solid;
     margin-left: -20px;
 }
 
 #page2 .page2-img .black-line-bottom{
-    height: 150px;
-    /*width:100px;*/
-    /*position: absolute;*/
-    /*left:50%;*/
+    height: 170px;
     border-left: black 3px solid;
     margin-left: -20px;
 }
@@ -969,8 +970,7 @@ h1 {
     color:#ffffff;
     display:block;
     text-align: center;
-    padding-top:490px;
-
+    margin-top: 434px;
 }
 
 #page3 .page3-middle-box1, #page3 .page3-middle-box2,#page3 .page3-middle-box3 {
