@@ -1,3 +1,4 @@
+/*@import url(../assets/fonts/GothamSSm-Medium_Web.woff2);*/
 /* Reset */
 
 * {
@@ -6,229 +7,80 @@
     padding:0;
 }
 /*Fonts*/
+
+/*@font-face {*/
+/*    font-family: 'Open Sans';*/
+
+/*}*/
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-stretch: 100%;
+    src: url('../assets/fonts/GothamSSm-Book_Web.woff2') format("woff2");
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: 100%;
+    src: url('../assets/fonts/GothamSSm-Book_Web.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: 100%;
+    src: url('../assets/fonts/GothamSSm-Light_Web.woff2') format("woff2");
+
+}
+@font-face {
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format("woff2");
-    unicode-range: U+0460-052f,U+1c80-1c88,U+20b4,U+2de0-2dff,U+a640-a69f,U+fe2e-fe2f
+    src: url('../assets/fonts/GothamSSm-Light_Web.woff2') format("woff2");
 }
-
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2) format("woff2");
-    unicode-range: U+0400-045f,U+0490-0491,U+04b0-04b1,U+2116
-}
+    src: url('../assets/fonts/GothamSSm-Medium_Web.woff2') format("woff2");
 
+}
 @font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2) format("woff2");
-    unicode-range: U+1f??
-}
+    src: url('../assets/fonts/GothamSSm-Medium_Web.woff2') format("woff2");
 
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2) format("woff2");
-    unicode-range: U+0370-03ff
 }
-
 @font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2) format("woff2");
-    unicode-range: U+0590-05ff,U+20aa,U+25cc,U+fb1d-fb4f
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format("woff2");
-    unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20ab
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2) format("woff2");
-    unicode-range: U+0100-024f,U+0259,U+1e??,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format("woff2");
-    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
-}
-
-@font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format("woff2");
-    unicode-range: U+0460-052f,U+1c80-1c88,U+20b4,U+2de0-2dff,U+a640-a69f,U+fe2e-fe2f
+    src: url('../assets/fonts/GothamSSm-Bold_Web.woff2') format("woff2");
+
 }
 
 @font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2) format("woff2");
-    unicode-range: U+0400-045f,U+0490-0491,U+04b0-04b1,U+2116
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2) format("woff2");
-    unicode-range: U+1f??
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2) format("woff2");
-    unicode-range: U+0370-03ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2) format("woff2");
-    unicode-range: U+0590-05ff,U+20aa,U+25cc,U+fb1d-fb4f
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format("woff2");
-    unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20ab
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2) format("woff2");
-    unicode-range: U+0100-024f,U+0259,U+1e??,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format("woff2");
-    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
-}
-
-@font-face {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2) format("woff2");
-    unicode-range: U+0460-052f,U+1c80-1c88,U+20b4,U+2de0-2dff,U+a640-a69f,U+fe2e-fe2f
-}
+    src: url('../assets/fonts/GothamSSm-Bold_Web.woff2') format("woff2");
 
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2) format("woff2");
-    unicode-range: U+0400-045f,U+0490-0491,U+04b0-04b1,U+2116
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2) format("woff2");
-    unicode-range: U+1f??
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2) format("woff2");
-    unicode-range: U+0370-03ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2) format("woff2");
-    unicode-range: U+0590-05ff,U+20aa,U+25cc,U+fb1d-fb4f
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format("woff2");
-    unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01a0-01a1,U+01af-01b0,U+1ea0-1ef9,U+20ab
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2) format("woff2");
-    unicode-range: U+0100-024f,U+0259,U+1e??,U+2020,U+20a0-20ab,U+20ad-20cf,U+2113,U+2c60-2c7f,U+a720-a7ff
-}
-
-@font-face {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 700;
-    font-stretch: 100%;
-    src: url(https://fonts.gstatic.com/s/opensans/v26/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2) format("woff2");
-    unicode-range: U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd
 }
 
 /* General */
 html, body {
-    /*font-family: "Gotham Medium", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
     font-family: "Open Sans",sans-serif ;
     scroll-behavior: smooth;
 }
-
 
 a {
     text-decoration: none;
@@ -236,8 +88,8 @@ a {
 }
 
 h1 {
-    font-size: 40px;
-    letter-spacing: 1px;
+    /*font-size: 40px;*/
+    /*letter-spacing: 1px;*/
 }
 
 /* Utility */
@@ -401,44 +253,23 @@ h1 {
 #navbar a{
     color:#ffffff;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     line-height: 21px;
 }
 
-/*#nav .logo a svg{*/
-/*    !*d: path("M 0 0.1 a 9.7 9.7 0 0 0 7 7 h 11 l 0.5 0.1 v 27.6 h 6.8 V 7.3 L 26 7 h 11 a 9.8 9.8 0 0 0 7 -7 H 0 Z m 238.6 0 h -6.8 v 34.8 H 263 a 9.7 9.7 0 0 0 6 -6.8 h -30.3 V 0 Z m -52.3 6.8 c 3.6 -1 6.6 -3.8 7.4 -6.9 l -38.1 0.1 v 20.6 h 31.1 v 7.2 h -24.4 a 13.6 13.6 0 0 0 -8.7 7 h 39.9 v -21 h -31.2 v -7 h 24 Z m 116.2 28 h 6.7 v -14 h 24.6 v 14 h 6.7 v -21 h -38 Z M 85.3 7 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 13.8 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z m 0 14.1 h 26 a 9.6 9.6 0 0 0 7.1 -7 H 78.3 a 9.6 9.6 0 0 0 7 7 Z M 308.5 7 h 26 a 9.6 9.6 0 0 0 7 -7 h -40 a 9.6 9.6 0 0 0 7 7 Z");*!*/
-/*    width: 600px;*/
-/*    height: 600px;*/
-/*}*/
 #nav .mid-bar ul,
 #nav .right-bar ul {
     list-style: none;
 
 }
-/*#navbar ul li a {*/
-    /*display: block;*/
-    /*padding: 20px;*/
-    /*margin-left:10px;*/
-    /*text-align: center;*/
-    /*color:#ffffff;*/
-    /*font-style: normal;*/
-    /*font-weight: 500;*/
-    /*font-size: 14px;*/
-    /*line-height: 21px;*/
-/*}*/
+
 #nav .right-bar {
     float:right;
 }
 
-/*#nav lu li {*/
-/*    float:left;*/
-
-/*}*/
 
 #nav .mid-bar {
-    /*display: inline;*/
-    /*float: none;*/
     width: 100%;
     margin: auto;
      padding-left:33%;
@@ -450,11 +281,10 @@ h1 {
 #nav .right-bar ul li a{
     letter-spacing: 1px;
     line-height: 22px;
-    font-weight:600;
-    font-size: 15px;
+    font-weight:300;
+    font-size: 14px;
     padding:5px 15px;
     display: inline ;
-    /*margin: 0px 10px;*/
     color:#ffffff;
     text-decoration: none;
 }
@@ -492,6 +322,7 @@ h1 {
 }
 
 /*Logo */
+
 #nav .logo {
     /*width:120px;*/
     /*height:30px;*/
@@ -525,23 +356,23 @@ h1 {
     height:31vh;
     color:#ffffff;
     position: fixed;
-    top:35vh;
+    top:35.5vh;
     left:8px;
     z-index: 7;
 }
 
 #left-scroller .scroller-box {
     color:#7E8189;
-    font-size: 20px;
+    font-size: 22px;
     /*margin-top:2px;*/
-    font-weight: 100;
+    font-weight: 300;
+    margin-bottom: 1px;
+    margin-left: 2px;
 }
-
 
 #left-scroller .current{
     color: #ffffff;
     font-size: 28px;
-
 }
 
 
@@ -553,24 +384,24 @@ h1 {
     color: transparent;
     text-align: left;
     display: inline;
+    font-weight: 300;
+    margin-left: 3px;
 }
 
 #left-scroller .scroller-box:hover{
     cursor: pointer;
     color: white!important;
-    font-weight: 600;
+    font-weight: 300;
     visibility: visible !important;
 
 }
 #left-scroller .scroller-box:hover> .scroller-name{
     cursor: pointer;
     color: white!important;
-    font-weight: 600;
+    font-weight: 300;
     visibility: visible !important;
 
 }
-
-
 
     /* Page 1 */
 
@@ -584,7 +415,6 @@ h1 {
 
 }
 
-
 #page1 .page1-content{
     position: relative;
 }
@@ -594,11 +424,12 @@ h1 {
     left:45vw;
     color:#ffffff;
 }
-#page1 .page1-content .page1-header h1{
+#page1 .page1-content .page1-header {
     color:#ffffff;
     font-size: 40px;
     line-height: 48px;
-    font-weight: 300;
+    font-weight: 300
+
 }
 
 #page1 .page1-zero-div {
@@ -607,15 +438,13 @@ h1 {
     display: inline-block;
     position: relative;
     z-index: -1;
-
 }
+
 #page1 .page1-bar-div {
     height: 200px;
    text-align: center;
     padding:50px 80px;
     color:#ffffff;
-    /*overflow: auto;*/
-    /*display: inline-block;*/
 }
 #page1 .page1-bar-inner-div {
     width:900px;
@@ -627,14 +456,13 @@ h1 {
     width: 160px;
     height: 170px;
     display: inline-block;
-
-
 }
 
 #page1 .page1-bar-box1-upper{
     padding:0px 12px;
     margin-top:20px;
 }
+
 #page1 .page1-bar-box1-upper-button {
     margin-bottom: -10px;
 }
@@ -643,109 +471,70 @@ h1 {
     width:30px;
     float: left;
     margin-left: 14px;
-    /*margin-right: 5px;*/
-}
 
+}
 
 #page1 .page1-bar-inner-div h1 {
     font-size: 28px;
-    font-weight: 600;
-    /*letter-spacing: -1px;*/
+    font-weight: 300;
+
 }
 #page1 .page1-bar-inner-div p{
-    font-size: 13px;
-    font-weight: 100;
-
+    font-size: 12px;
+    font-weight:300;
+    margin-top: 10px;
 }
 
 #page1 .page1-content .bottom-menu {
     color:#ffffff;
-    /*width: 100vw;*/
-
     width: 100%;
     position: absolute;
     display: block;
-    /*padding: 0px 20px;*/
     top:83vh;
     text-align: center;
     margin-top:20px;
-
-    /*margin: auto;*/
 }
-
 
 #page1 .page1-content  .bottom-menu   .page1-box {
     line-height: 20px;
-    /*line-height: 28px;*/
     display: inline-block;
     width:170px;
-    /*height:200px;*/
-    /*border: red solid 2px;*/
-    /*padding:0px 30px;*/
-    /*margin: 0px 30px;*/
-    /*margin: 10px 0px;*/
     margin: auto;
-    /*padding: 10px 20px;*/
     text-align: center;
 }
-/*.box1-container{*/
-/*    border: red solid 2px;*/
-/*    display: inline-block;*/
-/*    width: 100%;*/
-/*    margin: auto;*/
-/*    text-align: center;*/
-/*}*/
-/*.page1-box1-container {*/
 
-/*    border: yellow solid 4px;*/
-
-/*}*/
 #page1 .page1-content  .bottom-menu  .box1-upper {
     color: #ffffff;
-    /*font-size: 20px;*/
-    /*font-weight: 500;*/
     width: 200px;
 }
 
 #page1 .page1-content  .bottom-menu  .box1-upper .speedmeter{
-    /*display: inline;*/
     font-size: 2.5em;
-    /*width: 40%;*/
     margin-bottom: 10px;
-    /*line-height: 10px;*/
     float:left;
 
 }
 #page1 .page1-content  .bottom-menu  .box1-upper h2{
     width: 70%;
     font-size: 36px;
-    /*float:right;*/
 }
 #page1 .page1-content  .bottom-menu  .page1-box h2{
-    /*width: 70%;*/
-    /*line-height: 20px;*/
     font-size: 36px;
 }
 #page1 .page1-content  .bottom-menu  .box1-bottom {
-    /*display: block;*/
-    /*width: 100%;*/
-    /*margin-right: 70px;*/
-    /*margin: auto;*/
     font-weight: 400;
     font-size: 14px;
-    /*text-align: center;*/
     margin-top: 15px;
 }
 
 #page1 .bottom-arrow-div{
-
     display: block;
     position: absolute;
     bottom: 17px;
     left:48%;
-    /*margin-left: 50%;*/
     text-align: center;
 }
+
 #page1 .arrow{
     color:white;
 }
@@ -771,13 +560,11 @@ h1 {
     background: #ffffff;
     padding:20px 50px;
     text-align: justify;
-
-
-;
 }
+
 #page2 .page2-left-content h2 {
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
     margin-top:12px;
     color:#181b21;
@@ -788,7 +575,7 @@ h1 {
     font-size: 28px;
     line-height: 2;
     font-weight: bold;
-    /*font-weight: 500;*/
+    font-weight: 500;
     text-align: left;
     color:#181b21;
     height: 60px;
@@ -806,26 +593,23 @@ h1 {
 
 #page2 .page2-left-content-inside h2{
     color: #191C22;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 20px;
      margin-bottom: 20px;
     text-align: center;
-
 }
 
 #page2 .page2-left-content-inside .h2-rating{
     text-align: center;
 }
+
 #page2 .page2-left-content p {
     font-size: 14px;
     line-height: 21px;
     /*font-weight: bold;*/
-    font-weight: 600;
+    font-weight: 300;
     text-align: left;
     color:#393c41;
-
-
-
 }
 
 #page2 .page2-img{
@@ -879,9 +663,9 @@ h1 {
 {
     width:300px;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     color: #393D41;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
 }
 
 #page2 .page2-img .info-top {
@@ -949,8 +733,15 @@ h1 {
 #page2 .page2-buttons-div {
     overflow: auto;
     text-align: center;
+    width:100%;
     display:  block;
     margin-top: 180px;
+}
+#page2 .learn-more-button{
+      font-size: 12px;
+    margin-right: 10px;
+    letter-spacing: -1px;
+    font-weight: 800;
 }
 #page2 .plus-icon {
     height: 60px;
@@ -978,6 +769,7 @@ h1 {
 }
 
 /* Page 3 */
+
 #page3 {
     background: white;
     width: 100vw;
@@ -1004,7 +796,6 @@ h1 {
 #page3 .page3-middle-box1, #page3 .page3-middle-box2,#page3 .page3-middle-box3 {
     display: inline-block;
     width:300px;
-    /*border: yellow 1px solid;*/
     text-align: center;
     margin:0px 12px
 
@@ -1012,8 +803,6 @@ h1 {
 #page3 .page3-middle-box-header .speedmeter i, #page1 .speedmeter{
     font-size: 33px;
     margin-right:3px;
-
-
 }
 
 #page3 .speedmeter,#page3 .page3-middle-bar h1,
@@ -1025,34 +814,26 @@ h1 {
 }
 #page3 .page3-middle-bar h1 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 300;
     letter-spacing: -1px;
 }
 
 #page3 .page3-middle-bar p {
-    font-size: 13px;
-    font-weight: 100;
+    font-size: 11px;
+    font-weight: 400;
 
 }
 
 #page3 .page3-buttons {
-    /*display: block;*/
     margin: auto;
-    /*width:900px;*/
-    /*text-align: center;*/
+
 }
 
 #page3 .page3-bottom-menu {
     width: 100%;
     height:250px;
-    /*border:2px red solid;*/
     text-align: center;
     padding-top:10px;
-        /*vertical-align: middle;*/
-    /*margin-right: 100px;*/
-    /*margin: auto;*/
-    /*display: block;*/
-    /*vertical-align: middle;*/
 }
 
 #page3 .page3-bottom-menu p,
@@ -1063,27 +844,21 @@ h1 {
 }
 #page3 .page3-bottom-menu h2{
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 #page3 .page3-bottom-menu h1 {
     font-size: 28px;
     letter-spacing: -1px;
+    font-weight: 500;
 }
 #page3 .page3-bottom-menu p {
-    /*width:100%;*/
-    /*display:inline-block;*/
-    /*height: 100px;*/
-    font-size: 15px;
-    font-weight: 600;
-    /*text-align: left;*/
+    font-size: 14px;
+    font-weight: 100;
 }
-#page3 .page3-bottom-menu-text-p{
-    /*width:30%;*/
-    /*text-align:center;*/
-    /*display: inline-block;*/
-    /*float: right;*/
 
+#page3 .learn-more-button {
+    font-size:12px !important;
 }
 #page3 .page3-buttons-div{
     text-align: left;
@@ -1232,7 +1007,7 @@ h1 {
     --tds-padding--card--dense: 16px;
     --tds-padding-block--pill: 10px;
     --tds-padding-inline--pill: 20px;
-    --tds-base-font_family: var(--tds-font-combined--book);
+    /*--tds-base-font_family: var(--tds-font-combined--book);*/
     --tds-base-font_size: var(--tds-font-size--30);
     --tds-base-line_height: var(--tds-line-height--30);
     --tds-color--error: var(--tds-color--red10);
@@ -1258,7 +1033,7 @@ h1 {
     --tds-text--contrast-medium: var(--tds-color--grey20);
     --tds-code-bg-color: var(--tds-color--grey70);
     --tds-code-border-color: var(--tds-color--grey60);
-    --tds-code-color: var(--tds-text--color);
+    /*--tds-code-color: var(--tds-text--color);*/
     --tds-outline--focus: 2px dashed var(--tds-color--grey35);
     --tds-background-image--check: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 height=%2730%27 width=%2730%27 version=%271%27%3E%3Cpath fill=%27none%27 stroke=%27%23171a20%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27M11 2 4 9 1 6%27/%3E%3C/svg%3E");
     --tds-banner--padding: var(--tds-size--2x);
@@ -1273,9 +1048,9 @@ h1 {
     --tds-gutter--half_negative: calc(var(--tds-gutter--negative)/2);
     --tds-shell-footer-height: 52px;
     --tds-shell-header-height: 52px;
-    --tds-links-alt-box_shadow--default: inset var(--tds-size--half) 0 0 0 transparent;
-    --tds-links-alt-box_shadow--reversed: var(--tds-size--half) 0 0 0 currentColor;
-    --tds-links-alt-box_shadow--selected: inset var(--tds-size--half) 0 0 0 currentColor;
+    /*--tds-links-alt-box_shadow--default: inset var(--tds-size--half) 0 0 0 transparent;*/
+    /*--tds-links-alt-box_shadow--reversed: var(--tds-size--half) 0 0 0 currentColor;*/
+    /*--tds-links-alt-box_shadow--selected: inset var(--tds-size--half) 0 0 0 currentColor;*/
     --tds-spinner-size: 64px;
     --tds-table--vertical-align: middle;
     --tds-table-border_color: var(--tds-color--grey50);
