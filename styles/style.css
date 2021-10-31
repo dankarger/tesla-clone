@@ -84,8 +84,6 @@ a {
     color: inherit;
 }
 
-
-
 /* Utility */
 
 .clr {
@@ -132,7 +130,7 @@ a {
     border-radius: 30px;
     display: inline-block;
     padding:9px 24px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .btn-light a  {
@@ -183,16 +181,7 @@ a {
     border-color: #000000;
 }
 
-.arrow-dark {
-    font-size: 22px;
-    font-weight: lighter;
-    text-align: right;
-    position: sticky;
-    margin:22px 35px;
-    top: 25px;
-    right: 15px;
-}
-.arrow-dark-page3 {
+.arrow-dark, .arrow-dark-page3 {
     float: right;
     display:inline-block;
     font-size: 22px;
@@ -201,8 +190,18 @@ a {
     margin:22px 35px;
     top: 25px;
     right: 15px;
-
 }
+/*.arrow-dark-page3 {*/
+/*    float: right;*/
+/*    display:inline-block;*/
+/*    font-size: 22px;*/
+/*    font-weight: 100;*/
+/*    position: sticky;*/
+/*    margin:22px 35px;*/
+/*    top: 25px;*/
+/*    right: 15px;*/
+
+/*}*/
 .chat-icon {
     font-size:25px;
     font-weight: 100;
@@ -379,9 +378,6 @@ a {
 }
 
 
-.n {
-    float: right;
-}
 #left-scroller .scroller-name {
     font-size: 10px;
     color: transparent;
@@ -620,7 +616,7 @@ a {
     no-repeat center/cover ;
     background-size: 78vw, 78vw;
     margin-left: 67px;
-    margin-top:32px;
+    /*margin-top:32px;*/
 }
 #page2 .infos-div {
     position: relative;
@@ -673,13 +669,13 @@ a {
     height: 200px;
     width:100px;
     display: inline-block;
-    top:-13px;
+    top:25px;
     margin-left: 39%;
     position: absolute;
 }
 
 #page2 .infos-div {
-
+padding-top:30px;
 }
 #page2 .page2-img .info-bottom {
     height: 130px;
